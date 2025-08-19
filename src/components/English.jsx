@@ -60,7 +60,7 @@ function English(){
                     Home
                     </HashLink>
                     <HashLink smooth to="#link1">
-                    About
+                    About us
                     </HashLink>
                     <HashLink smooth to="#link2">
                    News

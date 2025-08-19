@@ -155,7 +155,7 @@ function English(){
                 <h2>News</h2>
                 <p>You can stay updated with the latest news about our courses</p>
                 <div className="news-container">
-                    <video controls src={v1}></video>
+                    <video controls src="w1 (1).mp4"></video>
                     <video controls src={v2}></video>
                     <video controls src={v3}></video>
                     <video controls src={v4}></video>

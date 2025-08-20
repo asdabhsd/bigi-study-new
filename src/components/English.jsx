@@ -126,30 +126,72 @@ function English(){
             
            </div>
 
-           <section className="about">
-                <h2>About us</h2>
-                <p>Have you always wanted to try yourself in the field of logistics?</p>
-               <div className="about-container">
-               <div className="text1">
-                    <h2>A Journey of a Thousand Miles Involves Many Small Steps" - by a londor doctor</h2>
-                    <p>The BIGI study team, consisting of energetic, enthusiastic and empowering members never thought twice about offering a trucking business classes and sharing their own experiences because of the value it can provide.The BIGI study team, consisting of energetic, enthusiastic and empowering members never thought twice about offering a trucking business classes and sharing their own experiences because of the value it can provide to other businesses by transporting goods from one location to another over and over again. Eventually, the team was able to create the best transportation logistics courses, and we would like to share with you how simple and joyful it can be to be a creative part of this industry if you have an open-minded system and clear goal in place.</p>
-                </div>
-                <div className="text2">
-                A course on "U.S. Trucking" , currently being held at the academy, will be taught in 3 stages. <br /> <br />
+           <div class="about-us-wrapper">
+        <div class="about-us-container">
+            <div class="about-us-header">
+                <h1 class="about-us-main-title">About us</h1>
+                <p class="about-us-subtitle">Have you always wanted to try yourself in the field of logistics?</p>
+            </div>
 
-                Stage 1️⃣: "English for Logistics" focuses on developing students' English language with the help of general logistical vocabularies and terms. It lasts 2 weeks. The course will enhance general understanding on logistics and put stress on improving "American accent".
-                <br /><br />
-                Stage 2️⃣: Knowledge, insights and skills necessary for trucking specialists , such as dispatching, updating, fleet, safety, accounting, and ELD management are formed. This stage lasts for 1 month.
-                <br /><br />
-                Stage 3️⃣: Joining free practice and trainings at our partner companies as an intern for 1 month and move to the "EARNING" stage!
-                <br /><br />
-                ✅ We select students through an interview. If your English level is B2 or higher, we look forward to seeing you soon.
+            <div class="about-us-content-grid">
+                <div class="about-us-left-column">
+                    <h2 class="about-us-quote-title">A Journey of a Thousand Miles Involves Many Small Steps" - by a london doctor</h2>
+                    <p class="about-us-quote-text">
+                        The BIGI study team, consisting of energetic, enthusiastic and empowering members never thought twice about offering a trucking business classes and sharing their own experiences because of the value it can provide.The BIGI study team, consisting of energetic, enthusiastic and empowering members never thought twice about offering a trucking business classes and sharing their own experiences because of the value it can provide to other businesses by transporting goods from one location to another over and over again. Eventually, the team was able to create the best transportation logistics courses, and we would like to share with you how simple and joyful it can be to be a creative part of this industry if you have an open-minded system and clear goal in place.
+                    </p>
                 </div>
-                <div className="text3">
-                    <p>Transportation of goods and services has always been one of the main boosters of a country’s economy. Every country, including the Republic of Uzbekistan, relies on its logistics to ensure parties conduct their business seamlessly and improve its economy. The modes of transport support it. You have planes delivering goods, ships delivering more goods, and the railways doing their part in delivering goods in bulk as well. But the most used and active mode of transport that contributes to much of the economy’s boost are the roads and—yes, you guessed it—trucks are the ones doing their part. This is why trucking has become something that interest us because it contributes to the economic growth of a country and the BIGI study, established in 2023, would like you to be an essential part of that contribution</p>
+
+                <div class="about-us-center-box">
+                    <p class="about-us-course-intro">
+                        A course on "U.S. Trucking", currently being held at the academy, will be taught in 3 stages.
+                    </p>
+
+                    <div class="about-us-stage-item">
+                        <div class="about-us-stage-header">
+                            <div class="about-us-stage-number">1</div>
+                            <div class="about-us-stage-title">"English for Logistics"</div>
+                        </div>
+                        <p class="about-us-stage-description">
+                            focuses on developing students' English language with the help of general logistical vocabularies and terms. It lasts 2 weeks. The course will enhance general understanding on logistics and put stress on improving "American accent".
+                        </p>
+                    </div>
+
+                    <div class="about-us-stage-item">
+                        <div class="about-us-stage-header">
+                            <div class="about-us-stage-number">2</div>
+                            <div class="about-us-stage-title">Knowledge, insights and skills</div>
+                        </div>
+                        <p class="about-us-stage-description">
+                            necessary for trucking specialists , such as dispatching, updating, fleet, safety, accounting, and ELD management are formed. This stage lasts for 1 month.
+                        </p>
+                    </div>
+
+                    <div class="about-us-stage-item">
+                        <div class="about-us-stage-header">
+                            <div class="about-us-stage-number">3</div>
+                            <div class="about-us-stage-title">Joining free practice and trainings</div>
+                        </div>
+                        <p class="about-us-stage-description">
+                            at our partner companies as an intern for 1 month and move to the "EARNING" stage!
+                        </p>
+                    </div>
+
+                    <div class="about-us-selection-note">
+                        <div class="about-us-checkmark">✓</div>
+                        <p class="about-us-selection-text">
+                            We select students through an interview. If your English level is B2 or higher, we look forward to seeing you soon.
+                        </p>
+                    </div>
                 </div>
-               </div>
-           </section>
+
+                <div class="about-us-right-column">
+                    <p class="about-us-right-text">
+                        Transportation of goods and services has always been one of the main boosters of a country's economy. Every country, including the Republic of Uzbekistan, relies on its logistics to ensure parties conduct their business seamlessly and improve its economy. The modes of transport support it. You have planes delivering goods, ships delivering more goods, and the railways doing their part in delivering goods in bulk as well. But the most used and active mode of transport that contributes to much of the economy's boost are the roads and—yes, you guessed it—trucks are the ones doing their part. This is why trucking has become something that interest us because it contributes to the economic growth of a country and the BIGI study, established in 2023, would like you to be an essential part of that contribution
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
             <div className="news">
                 <h2>News</h2>

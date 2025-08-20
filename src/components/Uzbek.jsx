@@ -33,9 +33,9 @@ import v9  from "../videos/v9 (1).mp4"
 import v10 from "../videos/v10 (1).mp4"
 
 
-function English(){
-    const [scrolled, setScrolled] = useState(false); // 🔹 State yaratildi
-// Tilni almashtirish funksiyasi
+function Uzbek(){
+    const [scrolled, setScrolled] = useState(false); // 🔹 Holat yaratildi
+    // Tilni almashtirish funksiyasi
 const handleLanguageChange = (lang) => {
     // Barcha til tugmalaridan active klassini olib tashlash
     document.querySelectorAll('.bigi-logistics-language-button-item')
@@ -49,7 +49,7 @@ const handleLanguageChange = (lang) => {
   };
     useEffect(() => {
         const handleScroll = () => {
-            setScrolled(window.scrollY > 50); // 50px pastga tushganda true bo‘ladi
+            setScrolled(window.scrollY > 50); // 50px pastga tushganda true bo'ladi
         };
         window.addEventListener("scroll", handleScroll);
 
@@ -66,27 +66,26 @@ const handleLanguageChange = (lang) => {
            </div>
            
            <div class="bigi-logistics-nav-links-container">
-            <HashLink smooth to="#home" className="bigi-logistics-nav-link-item">Home</HashLink>
-            <HashLink smooth to="#about" className="bigi-logistics-nav-link-item">About us</HashLink>
-            <HashLink smooth to="#news" className="bigi-logistics-nav-link-item">News</HashLink>
-            <HashLink smooth to="#facts" className="bigi-logistics-nav-link-item">Facts</HashLink>
-            <HashLink smooth to="#statistics" className="bigi-logistics-nav-link-item">Statistics</HashLink>
-            <HashLink smooth to="#partners" className="bigi-logistics-nav-link-item">Partners</HashLink>
+            <HashLink smooth to="#home" className="bigi-logistics-nav-link-item">Bosh Sahifa</HashLink>
+            <HashLink smooth to="#about" className="bigi-logistics-nav-link-item">Biz Haqimizda</HashLink>
+            <HashLink smooth to="#news" className="bigi-logistics-nav-link-item">Yangiliklar</HashLink>
+            <HashLink smooth to="#facts" className="bigi-logistics-nav-link-item">Faktlar</HashLink>
+            <HashLink smooth to="#statistics" className="bigi-logistics-nav-link-item">Statistika</HashLink>
+            <HashLink smooth to="#partners" className="bigi-logistics-nav-link-item">Hamkorlar</HashLink>
 
            </div>
            
            <a target="_blank"  href="https://docs.google.com/forms/d/e/1FAIpQLScOVHIgqEwZVlcd4Ymu5-upaQm-ihDYc2Zp_5wWSETtLaQDBA/" class="bigi-logistics-register-button-wrapper">
-               register
+               ro'yxatdan o'tish
                <svg class="bigi-logistics-button-icon-svg" viewBox="0 0 24 24">
                    <path d="M5 12h14m-7-7l7 7-7 7"/>
                </svg>
            </a>
            
            <div class="bigi-logistics-language-switcher-container">
-               <NavLink to="/" class="bigi-logistics-language-button-item">EN</NavLink>
+           <NavLink to="/" class="bigi-logistics-language-button-item">EN</NavLink>
                <NavLink to="/russian" class="bigi-logistics-language-button-item">RU</NavLink>
                <NavLink to="/uzbek" class="bigi-logistics-language-button-item">UZ</NavLink>
-               
            </div>
        </div>
    </nav>
@@ -114,24 +113,24 @@ const handleLanguageChange = (lang) => {
 
    
    <div id="h" class="bigi-logistics-content-message-section">
-       <h1 class="bigi-logistics-main-title-text">International Logistics Academy</h1>
+       <h1 class="bigi-logistics-main-title-text">Xalqaro Logistika Akademiyasi</h1>
        <div class="bigi-logistics-description-text">
-           <p><strong>Master an in-demand profession in 3 months!</strong></p>
-           <p>International transport logistics with knowledge of English B2!</p>
-           <p><strong>3 steps to your dream job!</strong></p>
+           <p><strong>3 oy ichida talabgir kasbni egallang!</strong></p>
+           <p>Ingliz tili B2 bilim darajasi bilan xalqaro transport logistikasi!</p>
+           <p><strong>Orzuingizdagi ishga 3 qadam!</strong></p>
        </div>
        <div class="bigi-logistics-action-buttons-container">
            <a href="tel:+1234567890" target="_blank"class="bigi-logistics-action-button-primary">
                <svg class="bigi-logistics-button-icon-svg" viewBox="0 0 24 24">
                    <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
                </svg>
-               Call
+               Qo'ng'iroq qilish
            </a>
            <a  href="https://t.me/bigiedu_admin"target="_blank" class="bigi-logistics-action-button-primary">
                <svg class="bigi-logistics-button-icon-svg" viewBox="0 0 24 24">
                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
                </svg>
-               message
+               Xabar yuborish
            </a>
        </div>
    </div>
@@ -140,64 +139,64 @@ const handleLanguageChange = (lang) => {
            <div id="about" class="about-us-wrapper">
         <div class="about-us-container">
             <div class="about-us-header">
-                <h1 class="about-us-main-title">About us</h1>
-                <p class="about-us-subtitle">Have you always wanted to try yourself in the field of logistics?</p>
+                <h1 class="about-us-main-title">Biz Haqimizda</h1>
+                <p class="about-us-subtitle">Logistika sohasida o'zingizni sinab ko'rmoqchi emasdingizmi?</p>
             </div>
 
             <div class="about-us-content-grid">
                 <div class="about-us-left-column">
-                    <h2 class="about-us-quote-title">A Journey of a Thousand Miles Involves Many Small Steps" - by a london doctor</h2>
+                    <h2 class="about-us-quote-title">"Ming mil yo'l bir qadamdan boshlanadi" - London doktori</h2>
                     <p class="about-us-quote-text">
-                        The BIGI study team, consisting of energetic, enthusiastic and empowering members never thought twice about offering a trucking business classes and sharing their own experiences because of the value it can provide.The BIGI study team, consisting of energetic, enthusiastic and empowering members never thought twice about offering a trucking business classes and sharing their own experiences because of the value it can provide to other businesses by transporting goods from one location to another over and over again. Eventually, the team was able to create the best transportation logistics courses, and we would like to share with you how simple and joyful it can be to be a creative part of this industry if you have an open-minded system and clear goal in place.
+                        Energik, ishtiyoqli va ilhomlantiruvchi a'zolardan tashkil topgan BIGI study jamoasi, yuk tashish biznesi bo'yicha darslar taklif qilish va o'z tajribalarini baham ko'rish haqida ikki marta o'ylamadi, chunki bu boshqa bizneslar uchun qayta-qayta bir joydan ikkinchi joyga yuk tashish orqali qanday qimmatli qiymat taqdim etishi mumkinligi sababli. Oxir-oqibat, jamoa eng yaxshi transport logistikasi kurslarini yaratishga muvaffaq bo'ldi va biz sizga ochiq fikrlar tizimiga va aniq maqsadga ega bo'lsangiz, ushbu sohada ijodiy qism bo'lish qanchalik oddiy va quvnoq bo'lishi mumkinligini baham ko'rishni istaymiz.
                     </p>
                 </div>
 
                 <div class="about-us-center-box">
                     <p class="about-us-course-intro">
-                        A course on "U.S. Trucking", currently being held at the academy, will be taught in 3 stages.
+                        Akademiyada hozirda o'tkazilayotgan "AQSh Yuk Tashish" kursi 3 bosqichda o'qitiladi.
                     </p>
 
                     <div class="about-us-stage-item">
                         <div class="about-us-stage-header">
                             <div class="about-us-stage-number">1</div>
-                            <div class="about-us-stage-title">"English for Logistics"</div>
+                            <div class="about-us-stage-title">"Logistika uchun Ingliz tili"</div>
                         </div>
                         <p class="about-us-stage-description">
-                            focuses on developing students' English language with the help of general logistical vocabularies and terms. It lasts 2 weeks. The course will enhance general understanding on logistics and put stress on improving "American accent".
+                            umumiy logistik lug'at va atamalar yordamida talabalarning ingliz tilini rivojlantirishga qaratilgan. U 2 hafta davom etadi. Kurs logistika bo'yicha umumiy tushunchani oshiradi va "Amerika talaffuzi"ni yaxshilashga urg'u beradi.
                         </p>
                     </div>
 
                     <div class="about-us-stage-item">
                         <div class="about-us-stage-header">
                             <div class="about-us-stage-number">2</div>
-                            <div class="about-us-stage-title">Knowledge, insights and skills</div>
+                            <div class="about-us-stage-title">Bilim, tushuncha va ko'nikmalar</div>
                         </div>
                         <p class="about-us-stage-description">
-                            necessary for trucking specialists , such as dispatching, updating, fleet, safety, accounting, and ELD management are formed. This stage lasts for 1 month.
+                            yuk tashish mutaxassislari uchun zarur bo'lgan, masalan, dispetcherlik, yangilash, avtopark, xavfsizlik, buxgalteriya hisobi va ELD boshqaruvi shakllantiriladi. Ushbu bosqich 1 oy davom etadi.
                         </p>
                     </div>
 
                     <div class="about-us-stage-item">
                         <div class="about-us-stage-header">
                             <div class="about-us-stage-number">3</div>
-                            <div class="about-us-stage-title">Joining free practice and trainings</div>
+                            <div class="about-us-stage-title">Bepul amaliyot va treninglarga qo'shilish</div>
                         </div>
                         <p class="about-us-stage-description">
-                            at our partner companies as an intern for 1 month and move to the "EARNING" stage!
+                            hamkor kompaniyalarimizda 1 oy muddatida stajor sifatida va "DAROMAD OLISH" bosqichiga o'tish!
                         </p>
                     </div>
 
                     <div class="about-us-selection-note">
                         <div class="about-us-checkmark">✓</div>
                         <p class="about-us-selection-text">
-                            We select students through an interview. If your English level is B2 or higher, we look forward to seeing you soon.
+                            Biz talabalarni suhbat orqali tanlaymiz. Agar sizning ingliz tilingiz darajasi B2 yoki undan yuqori bo'lsa, tez orada ko'rishguncha.
                         </p>
                     </div>
                 </div>
 
                 <div class="about-us-right-column">
                     <p class="about-us-right-text">
-                        Transportation of goods and services has always been one of the main boosters of a country's economy. Every country, including the Republic of Uzbekistan, relies on its logistics to ensure parties conduct their business seamlessly and improve its economy. The modes of transport support it. You have planes delivering goods, ships delivering more goods, and the railways doing their part in delivering goods in bulk as well. But the most used and active mode of transport that contributes to much of the economy's boost are the roads and—yes, you guessed it—trucks are the ones doing their part. This is why trucking has become something that interest us because it contributes to the economic growth of a country and the BIGI study, established in 2023, would like you to be an essential part of that contribution
+                        Tovarlar va xizmatlarni tashish har doim mamlakat iqtisodiyotining asosiy omillaridan biri bo'lib kelgan. O'zbekiston Respublikasini o'z ichiga olgan har bir mamlakat, biznesni muammosiz olib borish va iqtisodiyotini yaxshilash uchun o'z logistikasiga tayanadi. Transport turlari buni qo'llab-quvvatlaydi. Tovarlarni yetkazib beradigan samolyotlar, ko'proq tovarlarni yetkazib beradigan kemalar va ulkan miqdordagi tovarlarni yetkazib beradigan temir yo'llar mavjud. Ammo iqtisodiyotning ko'payishiga katta hissa qo'shadigan eng ko'p ishlatiladigan va faol transport turi - bu yo'llar va - ha, siz topdingiz - yuk mashinalari o'z hissasini qo'shadi. Shuning uchun yuk tashish bizni qiziqtirgan narsaga aylandi, chunki u mamlakatning iqtisodiy o'sishiga hissa qo'shadi va 2023 yilda tashkil etilgan BIGI study sizning ushbu hissangizning muhim qismi bo'lishingizni xohlaydi.
                     </p>
                 </div>
             </div>
@@ -205,8 +204,8 @@ const handleLanguageChange = (lang) => {
     </div>
 
             <div id="news" className="news">
-                <h2>News</h2>
-                <p>You can stay updated with the latest news about our courses</p>
+                <h2>Yangiliklar</h2>
+                <p>Kurslarimiz haqidagi so'nggi yangiliklardan xabardor bo'lishingiz mumkin</p>
                 <div className="news-container">
                     <video controls src="w1 (1).mp4"></video>
                     <video controls src={v2}></video>
@@ -224,8 +223,8 @@ const handleLanguageChange = (lang) => {
             </div>
 
             <div id="facts" className="facts">
-                <h2>Facts about our course</h2>
-                <p>Still wondering if you need to go to logistics?</p>
+                <h2>Kursimiz haqida faktlar</h2>
+                <p>Hali ham logistikaga borish kerakmi deb o'ylayapsizmi?</p>
                 <div class="cards-container">
         <div class="card card-1">
             <div class="floating-particles">
@@ -236,8 +235,8 @@ const handleLanguageChange = (lang) => {
                 <div class="particle"></div>
             </div>
             <div class="card-icon">🌐</div>
-            <h3 class="card-title">Language Upgrade</h3>
-            <p class="card-description">Before the main course, your English will be upgraded through American Business English Expertise!</p>
+            <h3 class="card-title">Tilni Oshirish</h3>
+            <p class="card-description">Asosiy kursdan oldin sizning ingliz tilingiz Amerika biznes ingliz tili ekspertizasi orqali yaxshilanadi!</p>
             <div class="card-arrow">
                 <a href="https://drive.google.com/file/d/17-7u5S_cnK-HWn_W6HFl2gJbDdU1hzzZ/view?usp=sharing">
                     <div class="arrow-icon"></div>
@@ -254,8 +253,8 @@ const handleLanguageChange = (lang) => {
                 <div class="particle"></div>
             </div>
             <div class="card-icon">🚛</div>
-            <h3 class="card-title">Trucking Management Mastery</h3>
-            <p class="card-description">After the main course, you get armed with all the necessary knowledge on managing trucking business, including carrying out operations through online platforms, websites and app resource kits!</p>
+            <h3 class="card-title">Yuk Tashish Boshqaruvi Ustunligi</h3>
+            <p class="card-description">Asosiy kursdan so'ng, siz onlayn platformalar, veb-saytlar va ilova resurs to'plamlari orqali operatsiyalarni olib borishni o'z ichiga olgan yuk tashish biznesini boshqarish bo'yicha barcha zarur bilimlar bilan qurollanasiz!</p>
            <a href="https://drive.google.com/file/d/1M8JWklyAT5EOD3BzBjVpv3sL8EO-4eZO/view?usp=sharing">
             <div class="card-arrow">
                 <div class="arrow-icon"></div>
@@ -272,8 +271,8 @@ const handleLanguageChange = (lang) => {
                 <div class="particle"></div>
             </div>
             <div class="card-icon">⭐</div>
-            <h3 class="card-title">Quality Logistics Education</h3>
-            <p class="card-description">During the main course, what you get most is quality education integrated with solid work ethics and long-term experience on transportation logistics!</p>
+            <h3 class="card-title">Sifatli Logistika Ta'limi</h3>
+            <p class="card-description">Asosiy kurs davomida siz eng ko'p transport logistikasi bo'yicha mustahkam mehnat etikasi va uzoq muddatli tajriba bilan birlashtirilgan sifatli ta'lim olasiz!</p>
             <a href="https://drive.google.com/file/d/1g2C4PeEolDTWiJkWBDeTEZcYWdlcQzAx/view?usp=sharing">
             <div class="card-arrow">
                 <div class="arrow-icon"></div>
@@ -285,14 +284,14 @@ const handleLanguageChange = (lang) => {
 
             <div id="statistics" class="logistics-dashboard-wrapper">
         <div class="stats-main-container">
-            <h1 class="primary-heading-text">BIG STATISTICS IN LOGISTICS</h1>
-            <p class="secondary-description-text">Thousands of cargo shipments a day and lots of opportunities</p>
+            <h1 class="primary-heading-text">LOGISTIKADA KATTA STATISTIKA</h1>
+            <p class="secondary-description-text">Kuniga minglab yuk tashishlar va ko'plab imkoniyatlar</p>
             
             <div class="metrics-grid-layout">
                 <div class="individual-metric-card">
                     <div class="metric-icon-wrapper shipping-icon-bg">🚢</div>
-                    <h3 class="metric-title-text">Statistics #1</h3>
-                    <p class="metric-description-text">The trucking industry earned close to $900 billion in revenue in 2023.</p>
+                    <h3 class="metric-title-text">Statistika №1</h3>
+                    <p class="metric-description-text">Yuk tashish sanoati 2023 yilda daromadi 900 milliard dollarga yaqin edi.</p>
                     <div class="progress-bar-container">
                         <div class="progress-fill-bar shipping-progress"></div>
                     </div>
@@ -301,8 +300,8 @@ const handleLanguageChange = (lang) => {
 
                 <div class="individual-metric-card">
                     <div class="metric-icon-wrapper delivery-icon-bg">🚚</div>
-                    <h3 class="metric-title-text">Statistics #2</h3>
-                    <p class="metric-description-text">There are about 3.5 million employed truck drivers in the U.S. as of 2023.</p>
+                    <h3 class="metric-title-text">Statistika №2</h3>
+                    <p class="metric-description-text">2023 yil holatiga ko'ra AQShda taxminan 3,5 million ish bilan ta'minlangan yuk mashinasi haydovchilari mavjud.</p>
                     <div class="progress-bar-container">
                         <div class="progress-fill-bar delivery-progress"></div>
                     </div>
@@ -311,8 +310,8 @@ const handleLanguageChange = (lang) => {
 
                 <div class="individual-metric-card">
                     <div class="metric-icon-wrapper warehouse-icon-bg">🏭</div>
-                    <h3 class="metric-title-text">Statistics #3</h3>
-                    <p class="metric-description-text">The U.S. trucking industry generated revenue that was worth more than the Gross Domestic Product (GDP) of at least 150 countries combined in 2023</p>
+                    <h3 class="metric-title-text">Statistika №3</h3>
+                    <p class="metric-description-text">AQSh yuk tashish sanoati 2023 yilda kamida 150 mamlakatning YaIMini birlashtirgandan ko'ra ko'proq daromad keltirdi.</p>
                     <div class="progress-bar-container">
                         <div class="progress-fill-bar warehouse-progress"></div>
                     </div>
@@ -321,8 +320,8 @@ const handleLanguageChange = (lang) => {
 
                 <div class="individual-metric-card">
                     <div class="metric-icon-wrapper transport-icon-bg">🚛</div>
-                    <h3 class="metric-title-text">Transportation and Logistics</h3>
-                    <p class="metric-description-text">There are over 1 million for-hire trucking carriers in the U.S.</p>
+                    <h3 class="metric-title-text">Transport va Logistika</h3>
+                    <p class="metric-description-text">AQShda 1 milliondan ortiq ijaraga olingan yuk tashish tashuvchilari mavjud.</p>
                     <div class="progress-bar-container">
                         <div class="progress-fill-bar transport-progress"></div>
                     </div>
@@ -331,8 +330,8 @@ const handleLanguageChange = (lang) => {
 
                 <div class="individual-metric-card">
                     <div class="metric-icon-wrapper distance-icon-bg">📏</div>
-                    <h3 class="metric-title-text">Statistics #5</h3>
-                    <p class="metric-description-text">U.S. trucks moved over 11 billion tons of freight in the U.S.</p>
+                    <h3 class="metric-title-text">Statistika №5</h3>
+                    <p class="metric-description-text">AQSh yuk mashinalari AQShda 11 milliard tonnadan ortiq yuk tashidi.</p>
                     <div class="progress-bar-container">
                         <div class="progress-fill-bar distance-progress"></div>
                     </div>
@@ -345,8 +344,8 @@ const handleLanguageChange = (lang) => {
     
     */}
     <div id="partners" class="partners-container">
-        <h2 class="partners-title">Partners</h2>
-        <p class="partners-subtitle">Companies who trust us</p>
+        <h2 class="partners-title">Hamkorlar</h2>
+        <p class="partners-subtitle">Bizga ishonadigan kompaniyalar</p>
         
         <div class="logos-wrapper">
             <div class="logos-track">
@@ -396,8 +395,8 @@ const handleLanguageChange = (lang) => {
         <div class="footer-content">
         
             <div class="footer-section">
-                <h4>Our Address</h4>
-                <a href="#">Namangan IT PARK 2nd house, Amir Temur street, Namangan city, Namangan region, Republic of Uzbekistan</a>
+                <h4>Manzilimiz</h4>
+                <a href="#">Namangan shahar, Namangan viloyati, Amir Temur ko'chasi, IT PARK 2-uy, O'zbekiston Respublikasi</a>
                 <div class="map-container">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d24088.554169029252!2d71.659337!3d41.001857!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDAwJzA2LjciTiA3McKwMzknMzMuNiJF!5e0!3m2!1sen!2sus!4v1755135674384!5m2!1sen!2sus" 
                             allowfullscreen="" 
@@ -409,10 +408,10 @@ const handleLanguageChange = (lang) => {
 
             
             <div  class="footer-section ft">
-                <h4>Documents</h4>
-                <a href="https://gentle-sunshine-60fff6.netlify.app/static/media/Affidavit.2bf6195cbde30d929bb1.pdf">Licence</a>
-                <a href="https://gentle-sunshine-60fff6.netlify.app/static/media/Tasdiqnoma.5d52b6f1064f55a1ac7a.pdf">Certificate</a>
-                <a href="https://gentle-sunshine-60fff6.netlify.app/static/media/Affidavit.2bf6195cbde30d929bb1.pdf">Affidavit</a>
+                <h4>Hujjatlar</h4>
+                <a href="https://gentle-sunshine-60fff6.netlify.app/static/media/Affidavit.2bf6195cbde30d929bb1.pdf">Litsenziya</a>
+                <a href="https://gentle-sunshine-60fff6.netlify.app/static/media/Tasdiqnoma.5d52b6f1064f55a1ac7a.pdf">Sertifikat</a>
+                <a href="https://gentle-sunshine-60fff6.netlify.app/static/media/Affidavit.2bf6195cbde30d929bb1.pdf">Afidavit</a>
             </div>
 
             <div class="footer-section ft">
@@ -422,7 +421,7 @@ const handleLanguageChange = (lang) => {
 
         
             <div  class="footer-section ft">
-                <h4>Contact Numbers</h4>
+                <h4>Aloqa Raqamlari</h4>
                 <a href="tel:+998957270017">+998 95 727 00 17</a>
                 <a href="tel:+998905539095">+998 90 553 90 95</a>
             </div>
@@ -437,4 +436,4 @@ const handleLanguageChange = (lang) => {
         </>
     )
 }
-export default English
+export default Uzbek

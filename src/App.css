@@ -1513,3 +1513,357 @@ p{
             gap: 50px;
         }
     }
+  
+
+
+    .bigi-logistics-main-container {
+        min-height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2025-08-13_12-18-03.jpg-DRuKTKW3M27e49aK3ZSvxcQTPpFs7X.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        font-family: 'Arial', sans-serif;
+        position: relative;
+        overflow-x: hidden;
+    }
+
+    .bigi-logistics-navbar-wrapper {
+        position: fixed;
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        max-width: 1200px;
+        z-index: 1000;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(200px);
+        border-radius: 15px;
+        padding: 15px 30px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .bigi-logistics-navbar-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .bigi-logistics-logo-container {
+        height: 40px;
+        filter: drop-shadow(0 0 10px #3b82f6) drop-shadow(0 0 20px #3b82f6) drop-shadow(0 0 30px #1d4ed8);
+    }
+
+    .bigi-logistics-logo-image {
+        height: 100%;
+        width: auto;
+    }
+
+    .bigi-logistics-nav-links-container {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .bigi-logistics-nav-link-item {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        transition: all 0.3s ease;
+        position: relative;
+    }
+    .arrow-icon{
+      width: 20px;
+      position: relative;
+      right: 5px;
+     
+      height: 20px;
+    }
+    .card-arrow{
+      margin-left: 90%;
+    }
+
+    .bigi-logistics-nav-link-item:hover {
+        color: #60a5fa;
+        transform: translateY(-2px);
+    }
+
+    .bigi-logistics-register-button-wrapper {
+        background: #2563eb;
+        color: white;
+        padding: 12px 24px;
+        border-radius: 25px;
+        text-decoration: none;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        transition: all 0.3s ease;
+        border: none;
+        cursor: pointer;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    
+
+    .bigi-logistics-register-button-wrapper:hover {
+        background: #1d4ed8;
+        transform: translateY(-2px);
+        box-shadow: 0 10px 25px rgba(37, 99, 235, 0.4);
+    }
+
+    .bigi-logistics-language-switcher-container {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        a{
+          color: white;
+          text-decoration: none;
+        }
+    }
+    bigi-logistics-language-switcher-container a.active{
+      background-color: rgba(128, 128, 128, 0.385);
+    }
+    bigi-logistics-language-switcher-container a:hover{
+      background-color: rgba(128, 128, 128, 0.385);
+    }
+
+
+    .bigi-logistics-language-button-item {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        padding: 8px 12px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        border: 1px solid transparent;
+    }
+
+    .bigi-logistics-language-button-item:hover {
+        background: rgba(255, 255, 255, 0.1);
+        border-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .bigi-logistics-social-media-sidebar {
+        position: fixed;
+        left: 30px;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        z-index: 999;
+    }
+
+    .bigi-logistics-social-icon-wrapper {
+        width: 50px;
+        height: 50px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .bigi-logistics-social-icon-wrapper:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    }
+
+    .bigi-logistics-social-icon-wrapper.telegram-specific:hover {
+        background: #0088cc;
+    }
+
+    .bigi-logistics-social-icon-wrapper.instagram-specific:hover {
+        background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    }
+
+    .bigi-logistics-social-icon-wrapper.facebook-specific:hover {
+        background: #1877f2;
+    }
+
+    .bigi-logistics-social-icon-svg {
+        width: 24px;
+        height: 24px;
+        fill: white;
+    }
+
+    .bigi-logistics-content-message-section {
+        position: absolute;
+        right: 80px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 300px;
+        background: rgba(0, 0, 0, 0.7);
+        backdrop-filter: blur(15px);
+        border-radius: 20px;
+        padding: 30px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        animation: bigi-logistics-fade-in-right 1s ease-out;
+    }
+
+    .bigi-logistics-main-title-text {
+        font-size: 28px;
+        font-weight: bold;
+        color: #3b82f6;
+        margin-bottom: 20px;
+        line-height: 1.2;
+    }
+
+    .bigi-logistics-description-text {
+        color: white;
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 25px;
+    }
+
+    .bigi-logistics-action-buttons-container {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .bigi-logistics-action-button-primary {
+        background: #dc2626;
+        color: white;
+        padding: 12px 20px;
+        border-radius: 25px;
+        text-decoration: none;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        transition: all 0.3s ease;
+        border: none;
+        cursor: pointer;
+        flex: 1;
+        justify-content: center;
+    }
+
+    .bigi-logistics-action-button-primary:hover {
+        background: #b91c1c;
+        transform: translateY(-2px);
+        box-shadow: 0 10px 25px rgba(220, 38, 38, 0.4);
+    }
+
+    .bigi-logistics-button-icon-svg {
+        width: 16px;
+        height: 16px;
+        fill: currentColor;
+    }
+
+    @keyframes bigi-logistics-fade-in-right {
+        from {
+            opacity: 0;
+            transform: translateY(-50%) translateX(50px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(-50%) translateX(0);
+        }
+    }
+
+    @keyframes bigi-logistics-fade-in-up {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .bigi-logistics-navbar-wrapper {
+        animation: bigi-logistics-fade-in-up 1s ease-out;
+    }
+
+    .bigi-logistics-social-media-sidebar {
+        animation: bigi-logistics-fade-in-up 1s ease-out 0.3s both;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 1024px) {
+        .bigi-logistics-content-message-section {
+            right: 40px;
+            width: 280px;
+        }
+        
+        .bigi-logistics-social-media-sidebar {
+            left: 20px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .bigi-logistics-navbar-wrapper {
+            width: 95%;
+            padding: 12px 20px;
+            top: 20px;
+        }
+        
+        .bigi-logistics-navbar-content {
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .bigi-logistics-nav-links-container {
+            gap: 20px;
+            justify-content: center;
+        }
+        
+        .bigi-logistics-content-message-section {
+            position: relative;
+            right: auto;
+            top: auto;
+            transform: none;
+            margin: 150px auto 50px;
+            width: 90%;
+            max-width: 350px;
+        }
+        
+        .bigi-logistics-social-media-sidebar {
+            position: relative;
+            left: auto;
+            top: auto;
+            transform: none;
+            flex-direction: row;
+            justify-content: center;
+            margin: 30px 0;
+        }
+        
+        .bigi-logistics-main-container {
+            background-attachment: scroll;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .bigi-logistics-nav-links-container {
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .bigi-logistics-language-switcher-container {
+            gap: 10px;
+        }
+        
+        .bigi-logistics-main-title-text {
+            font-size: 24px;
+        }
+        
+        .bigi-logistics-action-buttons-container {
+            flex-direction: column;
+        }
+        
+        .bigi-logistics-action-button-primary {
+            flex: none;
+        }
+    }
+   

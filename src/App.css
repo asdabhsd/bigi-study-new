@@ -21,7 +21,7 @@
   align-items: center;
   gap: 50px;
 }
-@media(max-width:391px){
+@media(max-width:401px){
   .nav{
     width: 310px !important;
     height: 40px;

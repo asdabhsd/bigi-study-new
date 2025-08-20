@@ -3,25 +3,16 @@ import { GoArrowRight } from "react-icons/go";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoCallSharp } from "react-icons/io5";
 import { TbMessageDots } from "react-icons/tb";
-import tg from "../logos/tg.png"
-import fc from "../logos/fc.png"
-import inst from "../logos/inst.png"
+
 import { HashLink } from "react-router-hash-link";
-import { useEffect, useState } from "react";
-import quality from "../assets/quality.png";
-import truck from "../assets/truck.png";
-import rightarrow from "../assets/rightarrow.png"
-import langs from "../assets/language.png"
+
 import arava from "../flowing images/arava.jpg"
 import artel from "../flowing images/artell.png"
 import dock from "../flowing images/dock.jpg"
 import express from "../flowing images/express.jpg"
 import global from "../flowing images/global.jpg"
 import hally from "../flowing images/hally.jpg"
-import itpark from "../flowing images/itpark.jpg"
-import noor from "../flowing images/noor.jpg"
-import taxir from "../flowing images/taxir.webp"
-import v1  from "../videos/vv (1).mp4"
+
 import v2  from "../videos/w1 (1).mp4"
 import v3  from "../videos/w2 (1).mp4"
 import v4  from "../videos/w4 (1).mp4"
@@ -34,27 +25,10 @@ import v10 from "../videos/v10 (1).mp4"
 
 
 function English(){
-    const [scrolled, setScrolled] = useState(false); // 🔹 State yaratildi
+    
 // Tilni almashtirish funksiyasi
-const handleLanguageChange = (lang) => {
-    // Barcha til tugmalaridan active klassini olib tashlash
-    document.querySelectorAll('.bigi-logistics-language-button-item')
-      .forEach(btn => btn.classList.remove('active'));
-    
-    // Tanlangan tilga active klassini qo'shish
-    document.querySelector(`.bigi-logistics-language-button-item[data-lang="${lang}"]`)
-      .classList.add('active');
-    
-    // Tilni o'zgartirish logikasi...
-  };
-    useEffect(() => {
-        const handleScroll = () => {
-            setScrolled(window.scrollY > 50); // 50px pastga tushganda true bo‘ladi
-        };
-        window.addEventListener("scroll", handleScroll);
 
-        return () => window.removeEventListener("scroll", handleScroll);
-    }, []);
+ 
     return(
         <>
                      <div id="home" class="bigi-logistics-main-container">
@@ -209,15 +183,15 @@ const handleLanguageChange = (lang) => {
                 <p>You can stay updated with the latest news about our courses</p>
                 <div className="news-container">
                     <video controls src="w1 (1).mp4"></video>
-                    <video controls src={v2}></video>
-                    <video controls src={v3}></video>
-                    <video controls src={v4}></video>
-                    <video controls src={v5}></video>
-                    <video controls src={v6}></video>
-                    <video controls src={v7}></video>
-                    <video controls src={v8}></video>
-                    <video controls src={v9}></video>
-                    <video controls src={v10}></video>
+                    <video controls src={v2} loading="lazy"></video>
+                    <video controls src={v3} loading="lazy"></video>
+                    <video controls src={v4} loading="lazy"></video>
+                    <video controls src={v5} loading="lazy"></video>
+                    <video controls src={v6} loading="lazy"></video>
+                    <video controls src={v7} loading="lazy"></video>
+                    <video controls src={v8} loading="lazy"></video>
+                    <video controls src={v9} loading="lazy"></video>
+                    <video controls src={v10} loading="lazy"></video>
                     
                     
                 </div>
